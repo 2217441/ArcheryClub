@@ -163,7 +163,16 @@ Please answer the following questions about our archery club idea.
 - Somewhat unlikely
 - Very unlikely
 
-20. Do you have any feedback or suggestions for our archery club? (Optional)
+
+
+20. What position can you be if you are capable of joining the mainboards?
+
+- President
+- Secretary 
+- Treasurer
+- Committee Members
+
+21. Do you have any feedback or suggestions for our archery club? (Optional)
 
 Thank you for completing this survey. Your responses are very valuable to us. Please enter your email address below if you would like us to contact for recruitment or anything else.
 
