@@ -126,20 +126,20 @@ The AC meetings shall be recorded by the Secretary, or by a member appointed by 
 ## Article VI: Finances
 
 - The AC shall derive its funds from the following sources:
-    
-    - The membership fees paid by the AC members
-    - The sponsorship and donation received from the IIUM or other organizations
-    - The grants and subsidies obtained from the IIUM or other organizations
-    - The income generated from the AC activities and programs, such as the registration fees, ticket sales, or merchandise sales
+
+  - The membership fees paid by the AC members
+  - The sponsorship and donation received from the IIUM or other organizations
+  - The grants and subsidies obtained from the IIUM or other organizations
+  - The income generated from the AC activities and programs, such as the registration fees, ticket sales, or merchandise sales
 
 - The AC shall manage its funds in accordance with the following rules:
-    
-    - The AC shall open and maintain a bank account under the name of the AC, with the signatures of the President and the Treasurer required for any transactions
-    - The AC shall prepare and submit a budget proposal for each academic year to the AC advisor and the STADD for approval
-    - The AC shall keep accurate and transparent records of all the financial transactions and statements of the AC, and make them available for inspection and audit by the AC advisor, the STADD, or any authorized party
-    - The AC shall spend the funds of the AC only for the purposes and activities that are consistent with the objectives and mission of the AC
-    - The AC shall not incur any debts or liabilities that exceed the funds of the AC, or that bind the AC or the IIUM to any contractual obligations without the prior approval of the AC advisor and the STADD
-    - The AC shall report and account for the income and expenditure of the AC to the AC advisor and the STADD at the end of each semester, or as requested
+
+  - The AC shall open and maintain a bank account under the name of the AC, with the signatures of the President and the Treasurer required for any transactions
+  - The AC shall prepare and submit a budget proposal for each academic year to the AC advisor and the STADD for approval
+  - The AC shall keep accurate and transparent records of all the financial transactions and statements of the AC, and make them available for inspection and audit by the AC advisor, the STADD, or any authorized party
+  - The AC shall spend the funds of the AC only for the purposes and activities that are consistent with the objectives and mission of the AC
+  - The AC shall not incur any debts or liabilities that exceed the funds of the AC, or that bind the AC or the IIUM to any contractual obligations without the prior approval of the AC advisor and the STADD
+  - The AC shall report and account for the income and expenditure of the AC to the AC advisor and the STADD at the end of each semester, or as requested
 
 ## Article VII: Amendments
 

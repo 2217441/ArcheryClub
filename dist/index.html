@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IIUM Archery Club</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <header>
+      <div class="container">
+        <h1>IIUM Archery Club</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="home">
+        <h2>Welcome to IIUM Archery Club</h2>
+        <p>
+          Discover the art of archery and join our community of passionate
+          archers!
+        </p>
+      </section>
+
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          IIUM Archery Club is dedicated to promoting the sport of archery and
+          fostering a supportive community for archers of all skill levels.
+        </p>
+      </section>
+
+      <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>Beginner's Workshop - May 15, 2024</li>
+          <li>Inter-University Archery Competition - June 20, 2024</li>
+          <li>Summer Archery Camp - July 10-15, 2024</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: archery@iium.edu.my</p>
+        <p>Phone: +60 3-1234 5678</p>
+        <p>
+          Address: International Islamic University Malaysia, Jalan Gombak,
+          53100 Kuala Lumpur, Malaysia
+        </p>
+      </section>
+
+      <section id="adminPanel" class="hidden">
+        <h3>Admin Panel</h3>
+        <div id="loginForm">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Username" aria-label="Username" />
+          <input type="password" id="password" placeholder="Password" aria-label="Password" />
+          <button onclick="login()">Login</button>
+        </div>
+        <div id="updateForm" class="hidden">
+          <h4>Update Content</h4>
+          <select id="sectionSelect" title="Section Select"></select>
+            <option value="home">Home</option>
+            <option value="about">About</option>
+            <option value="events">Events</option>
+            <option value="contact">Contact</option>
+          </select>
+          <textareatextarea id="contentInput" rows="5" title="Content Input" placeholder="Enter content here"></textarea>
+          <button onclick="updateContent()">Update</button>
+          <button id="logoutBtn" onclick="logout()">Logout</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 IIUM Archery Club. All rights reserved.</p>
+      </div>
+    </footer>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
