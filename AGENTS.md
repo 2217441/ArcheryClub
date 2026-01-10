@@ -1,3 +1,4 @@
+
 # AI Agents Guide
 
 Welcome, Agent. This repository is designed to be maintained by a team of specialized AI personas. Your behavior should adapt based on the role you are asked to assume or the task at hand.
@@ -10,6 +11,7 @@ Welcome, Agent. This repository is designed to be maintained by a team of specia
 
 ## Directory Structure
 *   `technical_roles/`: Contains the specific System Prompts for each agent persona.
+*   `club_roles/`: Contains runbooks for human club officers (President, Captain, etc.).
 *   `dist/`: (Deprecated) Do not use.
 *   `src/`: (Future) If we introduce a build step.
 *   `index.html`, `css/`, `js/`: The core source code.
@@ -18,3 +20,10 @@ Welcome, Agent. This repository is designed to be maintained by a team of specia
 *   **Minimalism**: We prefer simple, dependency-free solutions (Vanilla JS/CSS) over complex frameworks unless absolutely necessary.
 *   **Documentation**: Every change must be documented. If you change code, update the comments. If you change features, update the `README.md`.
 *   **Validation**: Always verify your work. Don't just output code; check that it works.
+
+## Club Roles (Human)
+In addition to the AI technical roles, this repository contains runbooks for the human officers of the club. These are located in `club_roles/`.
+*   **President**: Strategic leadership.
+*   **Secretary**: Administration and communication.
+*   **Treasurer**: Finance.
+*   **Captain**: Training and equipment.

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join IIUM Archery Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>IIUM Archery Club</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section class="hero" style="margin-top: 20px; padding: 40px;">
+        <h2>Membership Application</h2>
+        <p>Complete the form below to join our community.</p>
+    </section>
+
+    <div class="content-block" style="max-width: 600px; margin: 0 auto;">
+
+        <div class="progress-bar">
+            <div class="step-indicator active">1</div>
+            <div class="step-indicator">2</div>
+            <div class="step-indicator">3</div>
+        </div>
+
+        <form id="join-form">
+            <!-- Step 1: Personal Info -->
+            <div class="form-step active" id="step-1">
+                <h3>Personal Information</h3>
+
+                <div class="form-group">
+                    <label for="full_name">Full Name *</label>
+                    <input type="text" id="full_name" name="full_name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="matric_no">Matric Number *</label>
+                    <input type="text" id="matric_no" name="matric_no" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Student Email *</label>
+                    <input type="email" id="email" name="email" placeholder="@live.iium.edu.my" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="kulliyyah">Kulliyyah *</label>
+                    <select id="kulliyyah" name="kulliyyah" required>
+                        <option value="">Select Kulliyyah</option>
+                        <option value="KICT">KICT</option>
+                        <option value="KOE">Engineering</option>
+                        <option value="KIRKHS">IRKHS</option>
+                        <option value="KENMS">Economics</option>
+                        <option value="AIKOL">Laws</option>
+                        <option value="KAED">Architecture</option>
+                    </select>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="btn btn-secondary" onclick="window.location.href='index.html'">Cancel</button>
+                    <button type="button" class="btn btn-next">Next</button>
+                </div>
+            </div>
+
+            <!-- Step 2: Experience -->
+            <div class="form-step" id="step-2">
+                <h3>Archery Experience</h3>
+
+                <div class="form-group">
+                    <label for="experience_level">Experience Level *</label>
+                    <select id="experience_level" name="experience_level" required>
+                        <option value="">Select Level</option>
+                        <option value="beginner">Complete Beginner</option>
+                        <option value="intermediate">Intermediate (Can shoot 18m)</option>
+                        <option value="advanced">Advanced (Competitive)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="own_equipment">Do you own equipment?</label>
+                    <select id="own_equipment" name="own_equipment">
+                        <option value="no">No</option>
+                        <option value="yes_recurve">Yes, Recurve</option>
+                        <option value="yes_compound">Yes, Compound</option>
+                        <option value="yes_traditional">Yes, Traditional</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="interest">Primary Interest</label>
+                    <textarea id="interest" name="interest" rows="3" placeholder="Why do you want to join? (e.g. Sunnah, Competition, Fun)"></textarea>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="btn btn-secondary btn-prev">Back</button>
+                    <button type="button" class="btn btn-next">Next</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Review -->
+            <div class="form-step" id="step-3">
+                <h3>Review & Submit</h3>
+                <p>Please review your information before submitting.</p>
+
+                <div id="summary-content" style="background: var(--bg-color); padding: 15px; border-radius: 6px; margin-bottom: 20px;">
+                    <!-- JS will populate this -->
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" required> I agree to the Club Constitution and Code of Conduct.
+                    </label>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="btn btn-secondary btn-prev">Back</button>
+                    <button type="submit" class="btn">Submit Application</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 IIUM Archery Club. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/join.js"></script>
+</body>
+</html>
